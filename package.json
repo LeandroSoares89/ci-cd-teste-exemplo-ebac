@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EBAC-QE/ci-cd-teste-exemplo.git"
+    "url": "git+https://github.com/LeandroSoares89/ci-cd-teste-exemplo-ebac.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/EBAC-QE/ci-cd-teste-exemplo/issues"
+    "url": "https://github.com/LeandroSoares89/ci-cd-teste-exemplo-ebac/issues"
   },
-  "homepage": "https://github.com/EBAC-QE/ci-cd-teste-exemplo#readme",
+  "homepage": "https://github.com/LeandroSoares89/ci-cd-teste-exemplo-ebac#readme",
   "dependencies": {
     "cypress": "^14.5.4"
   },
