@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run  --browser chrome",
-    "report": "npx allure open --clean allure-results",
-    "report:generate": "npx allure generate --clean allure-results --output allure-report"
+    "report": "npx allure open allure-results",
+    "report:generate": "npx allure generate --output allure-report"
   },
   "repository": {
     "type": "git",
