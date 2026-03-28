@@ -140,3 +140,8 @@ vite.config.ts.timestamp-*
 # reports allure
 allure-report
 allure-results
+
+# Cypress files
+cypress/videos
+cypress/screenshots 
+cypress/downloads
