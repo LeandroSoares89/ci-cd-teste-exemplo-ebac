@@ -3,9 +3,13 @@ name: Teste CI - Cypress
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:  
+
 jobs:
   build:
-    runs-on: ubuntu-lates
+
+    runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js
@@ -13,12 +17,15 @@ jobs:
         with:
           node-version: 24
           cache: "npm"
+
       - name: Instalar Dependencias
         run: npm install
+
       - name: Executar Testes
         run: npm test
       - name: Gerar Relatório de Testes
         run: npm run report:generate
+
       - name: Publicar Relatório de Testes no GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
